@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import { assetPath } from "./assetPath";
 
 const nav = [
   ["Home", "/"],
@@ -31,7 +32,7 @@ export function Navbar() {
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <span className="grid h-10 w-24 place-items-center overflow-hidden rounded-md bg-white shadow-[0_10px_30px_rgba(10,132,255,.22)]">
             <img
-              src="/images/navbar-logo.svg"
+              src={assetPath("/images/navbar-logo.svg")}
               alt="FrelanceSofteare logo"
               className="h-full w-full object-contain"
             />

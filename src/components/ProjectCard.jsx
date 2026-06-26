@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
+import { assetPath } from "./assetPath";
 import { slideIn } from "./animations";
 
 const projectImages = [
-  "/images/stayfinder.png",
-  "/images/ecommerce.png",
-  "/images/project-hotel-website.png",
+  assetPath("/images/stayfinder.png"),
+  assetPath("/images/ecommerce.png"),
+  assetPath("/images/project-hotel-website.png"),
 ];
 
 export function ProjectCard({ p, i }) {

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+import { assetPath } from "./assetPath";
 import { slideIn } from "./animations";
 
 export function HeroSection() {
@@ -73,7 +74,7 @@ export function HeroSection() {
               className="relative aspect-[16/10] overflow-hidden rounded-xl border border-white/10 bg-[#111] shadow-[0_30px_120px_rgba(0,0,0,.7)] sm:aspect-[16/9] lg:h-[400px] lg:aspect-auto"
             >
               <img
-                src="/images/business-discussion.png"
+                src={assetPath("/images/business-discussion.png")}
                 alt="Business discussion and teamwork"
                 className="absolute inset-0 h-full w-full object-cover object-[center_58%]"
               />

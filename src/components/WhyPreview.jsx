@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { assetPath } from "./assetPath";
 import { slideIn } from "./animations";
 
 export function WhyPreview() {
@@ -12,7 +13,7 @@ export function WhyPreview() {
             className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#101010] p-3 shadow-[0_30px_110px_rgba(0,0,0,.55)]"
           >
             <img
-              src="/images/business-discussion.png"
+              src={assetPath("/images/business-discussion.png")}
               alt="Business team discussing a project"
               className="h-[280px] w-full rounded-2xl object-cover object-center md:h-[400px]"
             />

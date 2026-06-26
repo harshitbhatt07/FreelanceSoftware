@@ -14,6 +14,7 @@ import {
   Send,
 } from "lucide-react";
 import { PageHero, SectionTitle } from "../components/Layout";
+import { assetPath } from "../components/assetPath";
 import { ProjectCard } from "../components/ProjectCard";
 import { ServiceCard } from "../components/ServiceCard";
 import { faqs, industries, process, projects, services, tech, why } from "../data/siteData";
@@ -77,7 +78,7 @@ export function About() {
         title="About FrelanceSofteare"
         desc="FrelanceSofteare is a freelance software development team focused on creating modern, responsive, and user-friendly websites."
         variant="radar"
-        image="/images/about-hero-team.png"
+        image={assetPath("/images/about-hero-team.png")}
         imageAlt="Software team collaborating on a digital project"
         animated
       />
@@ -86,7 +87,7 @@ export function About() {
           <div className="grid items-center gap-10 lg:grid-cols-[.85fr_1.15fr]">
             <motion.div {...slideIn(0)} className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#101010] p-3 shadow-[0_30px_110px_rgba(0,0,0,.55)]">
               <img
-                src="/images/about-workspace.png"
+                src={assetPath("/images/about-workspace.png")}
                 alt="Modern software development workspace"
                 className="h-[320px] w-full rounded-2xl object-cover object-center md:h-[460px]"
               />
@@ -131,7 +132,7 @@ export function Services() {
         title="Software services for modern businesses"
         desc="We build websites, web apps, APIs, e-commerce systems, UI designs and deployment-ready digital products."
         variant="stack"
-        image="/images/services-hero.png"
+        image={assetPath("/images/services-hero.png")}
         imageAlt="Premium software services visual"
         animated
       />
@@ -270,7 +271,7 @@ export function Projects() {
         title="Demo projects ready to replace with real links"
         desc="Same portfolio content with new agency-style UI and modern animated cards."
         variant="editor"
-        image="/images/project-ecommerce.png"
+        image={assetPath("/images/project-ecommerce.png")}
         imageAlt="Modern e-commerce project dashboard preview"
         animated
       />
@@ -456,7 +457,7 @@ export function Contact() {
         title="Let's Build Your Project"
         desc="Have a project idea? Contact us and let's create a modern digital solution for your business."
         variant="editor"
-        image="/images/contact-hero.png"
+        image={assetPath("/images/contact-hero.png")}
         imageAlt="Client and developer discussing a project"
         animated
       />
