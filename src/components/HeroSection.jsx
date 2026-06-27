@@ -50,12 +50,12 @@ export function HeroSection() {
               className="inline-flex items-center gap-2 text-sm font-black text-white"
               to="/services"
             >
-              FrelanceSofteare 3.0
+              FrelanceSoftware 3.0
               <span className="text-white/45">Everything we build</span>
               <ArrowRight size={16} />
             </Link>
             <p className="mt-4 max-w-md text-base leading-7 text-white/55 lg:ml-auto">
-              We are FrelanceSofteare, a freelance software development team
+              We are FrelanceSoftware, a freelance software development team
               building responsive websites, web applications, and digital
               solutions for startups and businesses.
             </p>

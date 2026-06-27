@@ -14,7 +14,7 @@ export function Footer() {
       <div className="containerx grid gap-8 md:grid-cols-4">
         <div className="md:col-span-2">
           <h2 className="text-3xl font-black">
-            Frelance<span className="brand-dot">Softeare</span>
+            Frelance<span className="brand-dot">Software</span>
           </h2>
           <p className="mt-4 max-w-xl text-white/50">
             Freelance Software Development Team building modern websites, web apps, and digital
@@ -40,7 +40,7 @@ export function Footer() {
         </div>
       </div>
       <p className="containerx mt-10 text-center text-sm text-white/35">
-        2026 FrelanceSofteare. All rights reserved.
+        2026 FrelanceSoftware. All rights reserved.
       </p>
     </footer>
   );

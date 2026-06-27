@@ -32,7 +32,7 @@ export function WhyPreview() {
               communication and basic support after delivery.
             </p>
             <div className="mt-10 flex flex-wrap gap-5 text-xs font-bold text-white/35 md:text-sm">
-              <span>2026 FrelanceSofteare</span>
+              <span>2026 FrelanceSoftware</span>
               <span>Modern Websites</span>
               <span>Web Apps</span>
               <span>Digital Solutions</span>

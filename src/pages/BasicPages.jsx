@@ -75,8 +75,8 @@ export function About() {
     <main className="bg-black text-white">
       <PageHero
         eyebrow="About Us"
-        title="About FrelanceSofteare"
-        desc="FrelanceSofteare is a freelance software development team focused on creating modern, responsive, and user-friendly websites."
+        title="About FrelanceSoftware"
+        desc="FrelanceSoftware is a freelance software development team focused on creating modern, responsive, and user-friendly websites."
         variant="radar"
         image={assetPath("/images/about-hero-team.png")}
         imageAlt="Software team collaborating on a digital project"
@@ -423,7 +423,7 @@ export function Contact() {
     const formData = new FormData(form);
     const email = formData.get("email");
 
-    formData.append("_subject", "New project inquiry from FrelanceSofteare website");
+    formData.append("_subject", "New project inquiry from FrelanceSoftware website");
     formData.append("_template", "table");
     formData.append("_captcha", "false");
     formData.append("submitted_date", new Date().toLocaleDateString());

@@ -33,12 +33,12 @@ export function Navbar() {
           <span className="grid h-10 w-24 place-items-center overflow-hidden rounded-md bg-white shadow-[0_10px_30px_rgba(10,132,255,.22)]">
             <img
               src={assetPath("/images/navbar-logo.svg")}
-              alt="FrelanceSofteare logo"
+              alt="FrelanceSoftware logo"
               className="h-full w-full object-contain"
             />
           </span>
           <span className="text-lg font-black tracking-tight text-white">
-            Frelance<span className="brand-dot">Softeare</span>
+            Frelance<span className="brand-dot">Software</span>
           </span>
         </Link>
 
